@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
 
         // Create the next level button, which tries to show an interstitial when clicked.
-        mNextLevelButton = ((Button) findViewById(R.id.next_level_button));
+        /*mNextLevelButton = ((Button) findViewById(R.id.next_level_button));
         mNextLevelButton.setEnabled(false);
         mNextLevelButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,12 +56,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Create the text view to show the level number.
-        mLevelTextView = (TextView) findViewById(R.id.level);
+        mLevelTextView = (TextView) findViewById(R.id.level);*/
+        MonthView monthView = new MonthView(this);
+        setContentView(monthView);
         mLevel = START_LEVEL;
 
         // Create the InterstitialAd and set the adUnitId (defined in values/strings.xml).
-        mInterstitialAd = newInterstitialAd();
-        loadInterstitial();
+        //mInterstitialAd = newInterstitialAd();
+        //loadInterstitial();
 
         // Toasts the test ad message on the screen. Remove this after defining your own ad unit ID.
         Toast.makeText(this, TOAST_TEXT, Toast.LENGTH_LONG).show();
