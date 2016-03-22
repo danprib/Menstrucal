@@ -22,4 +22,4 @@
     <item android:id="@android:id/progress"
         android:drawable="@drawable/abc_btn_rating_star_on_mtrl_alpha" />
 </layer-list>
-<!-- From: file:/Users/skidnight/Desktop/AndroidProjects/MenstruCal/MenstruCal/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_full_material.xml -->
+<!-- From: file:/C:/Users/Christine%20Pribulick/Documents/menstrucal/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable/abc_ratingbar_full_material.xml -->

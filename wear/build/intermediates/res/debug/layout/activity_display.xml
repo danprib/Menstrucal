@@ -5,4 +5,4 @@
     tools:context=".MyDisplayActivity" tools:deviceIds="wear">
     <TextView android:id="@+id/text" android:layout_width="wrap_content"
         android:layout_height="wrap_content" android:text="@string/hello" />
-</LinearLayout><!-- From: file:/Users/skidnight/Desktop/AndroidProjects/MenstruCal/MenstruCal/wear/src/main/res/layout/activity_display.xml -->
+</LinearLayout><!-- From: file:/C:/Users/Christine%20Pribulick/Documents/menstrucal/wear/src/main/res/layout/activity_display.xml -->
