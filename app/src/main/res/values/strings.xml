@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MenstruCal2</string>
+    <string name="action_settings">Settings</string>
+    <string name="fight">Fight</string>
+    <string name="laid">Laid</string>
+    <string name="good">Good</string>
+    <string name="period">Period</string>
+</resources>
